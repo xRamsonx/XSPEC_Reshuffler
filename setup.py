@@ -20,7 +20,8 @@ setup(
                       'numpy',
                       'python-dateutil',
                       'pandas',
-                      'PyQt5'
+                      'PyQt5',
+                      'pyshortcuts'
                       ],
     entry_points={
        'console_scripts': [
