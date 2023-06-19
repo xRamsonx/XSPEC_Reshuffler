@@ -30,7 +30,6 @@ class DragAndDropLabelwithButton(QFrame):
         self.setObjectName("DragAndDropLabelwithButton")
         self.file = text
         self.loadtext = loadtext
-        print(self.loadtext)
         self.setAcceptDrops(True)
         self.setAutoFillBackground(True)
         self.file_path = None

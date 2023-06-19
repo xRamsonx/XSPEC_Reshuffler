@@ -16,21 +16,12 @@ setup(
     author_email='kai.arnold@design4webs.de',
     license='MIT License',
     packages=['xspec_reshuffler'],
-    install_requires=['matplotlib',
-                      'numpy',
-                      'python-dateutil',
-                      'pandas',
-                      'PyQt5',
-                      'pyshortcuts'
-                      ],
+    install_requires=['matplotlib', 'numpy', 'python-dateutil', 'pandas', 'PyQt5','pyshortcuts'],
     entry_points={
-       'console_scripts': [
+        'console_scripts': [
             'XSPEC_Reshuffler = xspec_reshuffler.main:run',
-            'XSPEC_Reshuffler_shortcut = xspec_reshuffler.create:shortcut',
-            
         ],
     },
-
     classifiers=[
         'Development Status :: 1 - Planning',
         'Intended Audience :: Science/Research',
