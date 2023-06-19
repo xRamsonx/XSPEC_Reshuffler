@@ -49,11 +49,26 @@ def init_app():
     
     # # Set the scaled font as the application font
     # QtWidgets.QApplication.setFont(scaledFont)
+    import xspec_reshuffler
+    package_dir = os.path.abspath(os.path.join(os.path.dirname(xspec_reshuffler.__file__), '..'))
 
+    icon_path = os.path.join(
+        package_dir,
+        'xspec_reshuffler',
+        'icons'  # Package name/folder
+    )
+    icon1=os.path.join(
+        icon_path,
+        '48.png',
+    )
+    icon2=os.path.join(
+        icon_path,
+        '256.png',
+    )
     app = QApplication(sys.argv)
     app_icon = QIcon()
-    app_icon.addFile(resource_path("Icon/48.png"), QSize(48, 48))
-    app_icon.addFile(resource_path("Icon/256.png"), QSize(256, 256))
+    app_icon.addFile(icon1, QSize(48, 48))
+    app_icon.addFile(icon2, QSize(256, 256))
     window = GenerateXASWindow(app_icon)
     window.show()
     app.exec_()
