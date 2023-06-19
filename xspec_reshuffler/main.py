@@ -68,7 +68,8 @@ def generate_shortcut():
     main_script_path = os.path.join(package_dir, 'xspec_reshuffler', 'main.py')
     icon_path = os.path.join(
         package_dir,
-        'Icon',  # Package name/folder
+        'xspec_reshuffler',
+        'icons',  # Package name/folder
         '512.ico'
     )
 

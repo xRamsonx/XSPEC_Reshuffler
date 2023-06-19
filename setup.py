@@ -16,9 +16,11 @@ setup(
     author_email='kai.arnold@design4webs.de',
     license='MIT License',
     packages=['xspec_reshuffler'],
+    include_package_data=True,
+    package_data={'':['icons/*']},
     install_requires=['matplotlib', 'numpy', 'python-dateutil', 'pandas', 'PyQt5','pyshortcuts'],
     entry_points={
-        'console_scripts': [
+        'gui_scripts': [
             'XSPEC_Reshuffler = xspec_reshuffler.main:run',
         ],
     },
