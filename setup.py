@@ -11,7 +11,7 @@ setup(
     name='xspec_reshuffler',
     version='0.1.0',    
     description='A example Python package',
-    url='https://github.com/xRamsonx/BeamlineHelperGUI',
+    url='https://github.com/xRamsonx/XSPEC_Reshuffler',
     author='Kai Arnold',
     author_email='kai.arnold@design4webs.de',
     license='MIT License',
@@ -22,6 +22,11 @@ setup(
                       'pandas',
                       'PyQt5'
                       ],
+    entry_points={
+       'console_scripts': [
+            'XSPEC_Reshuffler = xspec_reshuffler.main:run',
+        ],
+    },
 
     classifiers=[
         'Development Status :: 1 - Planning',

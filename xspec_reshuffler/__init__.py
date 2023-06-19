@@ -5,4 +5,4 @@ Created on Wed Jun 14 23:41:37 2023
 
 @author: kai
 """
-from xspec_reshuffler.main import GenerateXASWindow
+from xspec_reshuffler.main_windows import GenerateXASWindow
