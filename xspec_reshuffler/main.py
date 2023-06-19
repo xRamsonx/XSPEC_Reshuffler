@@ -92,3 +92,5 @@ def run():
     else:
         init_app()
         
+if __name__=="main":
+    run()
