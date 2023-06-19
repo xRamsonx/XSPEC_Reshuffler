@@ -25,6 +25,8 @@ setup(
     entry_points={
        'console_scripts': [
             'XSPEC_Reshuffler = xspec_reshuffler.main:run',
+            'XSPEC_Reshuffler_shortcut = xspec_reshuffler.create:shortcut',
+            
         ],
     },
 
