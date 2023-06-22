@@ -16,3 +16,9 @@ Otherwise you can generate a desktop shortcut using:
 ```console
 XSPEC_Reshuffler -s
 ```
+## Update
+To update the package to a newer version just rerun the following pip command:
+Install this package in your terminal via:
+```console
+pip install --upgrade git+https://github.com/xRamsonx/XSPEC_Reshuffler.git
+```
