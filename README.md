@@ -3,6 +3,7 @@ A program to read in and callibrate XSPEC data
 ## Installation
 Make sure you installed python on your machine.
 Check [python.org/downloads](https://www.python.org/downloads/) for more information.
+Make sure you check the add the PATH box in the installation.
 Install this package in your terminal via:
 ```console
 pip install --upgrade git+https://github.com/xRamsonx/XSPEC_Reshuffler.git
